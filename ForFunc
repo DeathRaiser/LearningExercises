@@ -1,0 +1,15 @@
+def ForFunc(stop, start=0, step=1):
+    if step>0:
+        while start<stop:
+            print(start)
+            start+=step
+    else:
+        while start>stop:
+            print(start)
+            start+=step
+            
+ForFunc(5)
+ForFunc(5, 1, 2)
+ForFunc(-30, -20, -2)
+
+#ForFunc(stop, start, step)
